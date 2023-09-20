@@ -12,7 +12,8 @@ setup(
     description='EBI EVA - Python Utilities for internal use',
     url='https://github.com/EBIVariation/eva-internal-pyutils',
     keywords=['EBI', 'EVA', 'PYTHON', 'UTILITIES'],
-    install_requires=['lxml', 'pymongo', 'pyyaml', 'retry', 'psycopg2-binary', 'ebi_eva_common_pyutils'],
+    install_requires=['lxml', 'pymongo', 'pyyaml', 'retry', 'psycopg2-binary', 'networkx<=2.5',
+                      'ebi_eva_common_pyutils'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
